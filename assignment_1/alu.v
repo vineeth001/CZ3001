@@ -1,28 +1,19 @@
-`define SIZE 8
-`define ADD 3'b000
-`define SUB 3'b001
-`define AND 3'b010
-`define OR  3'b011
-`define SLL 3'b100
-`define SRL 3'b101
-`define SRA 3'b110
-`define RL  3'b111
-
+`include "define.v"
 module alu(
-   A,   //`SIZE-bit 1st operand
-   B,   //`SIZE-bit 2nd operand
+   A,   //1st operand
+   B,   //2nd operand
    op,   //3-bit operation
-   imm,   //4-bit immeiate operand for shift/rotate
-   Out   //`SIZE-bit output
+   imm,   //4-bit immediate operand for shift/rotate
+   Out   //output
    );
    
-   input [`SIZE-1:0] A,B;
+   input [`DSIZE-1:0] A,B;
    input [2:0] op;
    input [3:0] imm;
-   output [`SIZE-1:0] Out;
+   output [`DSIZE-1:0] Out;
    
-   reg [`SIZE-1:0] Out; 
-   reg [2*`SIZE -1:0] tmp;      // for rotate left
+   reg [`DSIZE-1:0] Out; 
+   reg [2*`DSIZE -1:0] tmp;      // for rotate left
       
 always @(A or B or op or imm)
 begin
@@ -36,7 +27,7 @@ begin
        `SRA: Out = $signed(A) >>> imm;
        `RL:  begin
               tmp = {A, A} << imm;
-              Out = tmp[2*`SIZE -1:`SIZE];              
+              Out = tmp[2*`DSIZE -1:`DSIZE];              
              end
        default: Out = 0;              
    endcase
