@@ -1,4 +1,4 @@
-`define SIZE 6
+`define SIZE 8
 `define ADD 3'b000
 `define SUB 3'b001
 `define AND 3'b010
