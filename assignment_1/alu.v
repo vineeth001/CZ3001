@@ -1,3 +1,4 @@
+`include "define.v"
 module alu(
    A,   //1st operand
    B,   //2nd operand
