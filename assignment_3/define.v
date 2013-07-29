@@ -1,5 +1,5 @@
 // defines
-`define	ISIZE	18
+`define	ISIZE	16
 `define	DSIZE	16
 `define	RSIZE	4
 `define ADD 3'b000
