@@ -11,6 +11,11 @@
 `define SRA 3'b110
 `define RL  3'b111
 
+//for fileIO
+`timescale 1ns / 10 ps
+`define EOF 32'hFFFF_FFFF
+`define NULL 0
+`define MAX_LINE_LENGTH 1000
 
 
 
