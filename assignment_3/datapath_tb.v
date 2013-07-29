@@ -44,7 +44,7 @@ begin
 end
 	InitSel = 1;
 
-// varify alu
+// verify alu
 for (i=0; i<8; i=i+1)
 begin
 #2	Instruction = 16'b1000_0000_0010_0001 + (i<<12) +((i+3)<<8);
