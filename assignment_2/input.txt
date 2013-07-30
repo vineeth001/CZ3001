@@ -1,0 +1,37 @@
+// file_input.txt
+// format:
+//	RAddr1	RAddr2	WAddr	WData
+
+// write Reg_File
+	x	x	0	0010
+	x	x	1	0011
+	x	x	2	0012
+	x	x	3	0013
+	x	x	4	0014
+	x	x	5	0015
+	x	x	6	0016
+	x	x	7	0017
+	x	x	8	0018
+	x	x	9	0019
+	x	x	a	001a
+	x	x	b	001b
+	x	x	c	001c
+	x	x	d	001d
+	x	x	e	001e
+	x	x	f	001f
+
+// read Reg_File
+	0	1	x	xxxx
+	2	3	x	xxxx
+	4	5	x	xxxx
+	6	7	x	xxxx
+	8	9	x	xxxx
+	a	b	x	xxxx
+	c	d	x	xxxx
+	e	f	x	xxxx
+
+
+
+
+
+
