@@ -18,7 +18,7 @@ module Reg_File (
 	// register array definition ( 16 registers)
 	reg [`DSIZE-1:0] RegFile[0:15];
 
-	always@(posedge Clock)
+	always@(posedge Clock or !Reset)
 		if(!Reset)
 			begin
 				RegFile[0]  <= 0;
