@@ -1,0 +1,59 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1
+valu
+VlSQGEC4Wc203B2l@<D]Qn3
+r1
+31
+IPYI17404RgN;9UlKI9lRI0
+Z1 d/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1
+w1374147347
+8/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu.v
+F/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu.v
+L0 2
+Z2 OE;L;10.1d;51
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 1I3f^N10eRIiVAM^zgIF:0
+!s90 -reportprogress|300|-work|work|/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu.v|
+!s108 1378439679.119866
+!s107 define.v|/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu.v|
+!s85 0
+!i10b 1
+valu_tb
+I6GE@4gfW?TGcgfU0afTEz2
+VL;=kgzZ7GJ2Reg7Z1GkmR2
+R1
+w1381375696
+Z4 8/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu_tb_file_io.v
+Z5 F/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu_tb_file_io.v
+L0 2
+R2
+r1
+31
+R3
+!s100 EE?_19`UVo2APIKKH]0OS2
+!s108 1381375705.019651
+Z6 !s107 define.v|/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu_tb_file_io.v|
+Z7 !s90 -reportprogress|300|-work|work|/home/vineeth/Dropbox/TA_job/TA_CZ3001/assignment_1/alu_tb_file_io.v|
+!i10b 1
+!s85 0
+valu_tb_file_io
+Vz:ECFnGjda28MgTL^=Z7h3
+r1
+!s85 0
+31
+!s100 ZQfPMF417GV5`l7@E@YW;2
+IJ@_[Tc4N_AO4C8>O3B^PK2
+R1
+w1381375732
+R4
+R5
+L0 2
+R2
+R7
+R3
+!i10b 1
+!s108 1381375749.265309
+R6

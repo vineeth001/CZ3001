@@ -68,7 +68,6 @@ initial
 begin
   
        A=`DSIZE'd0; B=`DSIZE'd0; imm=4'd0; op=3'd0;   
-       
    #10 A=`DSIZE'd1; B=`DSIZE'd12;
    #10 A=`DSIZE'd51; B=`DSIZE'd12;
    #10 A=`DSIZE'd21; B=`DSIZE'd12; op=3'd1;
