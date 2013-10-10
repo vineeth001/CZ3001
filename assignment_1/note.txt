@@ -1,0 +1,4 @@
+All the file I/O infrastructure has been added.
+1. input.txt : input for alu_tb_file_io.v
+2. output.txt: output of simulation
+3. gold.txt: standard result (expected) for alu_tb_file_io.v
