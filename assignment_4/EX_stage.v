@@ -24,7 +24,7 @@ module EX_stage (
 	 output [`DSIZE-1:0] EX_ALUResult_mem,	// this should not be registered (done in BlkRAM)
 	 output [`DSIZE-1:0] EX_ReadData2_out,		// this should not be registered (done in BlkRAM)
 	 output reg [`RSIZE-1:0] Mem_RDest_rd,
-   output reg [2:0] ALU_Status,         // status FLAG Z,V,N
+   	 output reg [2:0] ALU_Status,         // status FLAG Z,V,N
 	 output EX_MemWrite_out, EX_MemEnab_out, 		// these should not be registered (done in BlkRAM)
 	 output reg Mem_Mem2Reg, Mem_RFileWrite, Mem_Sel_ALU_PC1
     );
@@ -103,7 +103,7 @@ begin
 		Mem_RDest_rd <= EX_RDest_rd;		// RegFile write destination forwarded to WB stage
 		Mem_Mem2Reg <= EX_Mem2Reg;
 		Mem_RFileWrite <= EX_RFileWrite;
-	  ALU_Status <= EX_ALU_Status;
+	  	ALU_Status <= EX_ALU_Status;
 		Mem_Sel_ALU_PC1 <= EX_Sel_ALU_PC1;
 		end
 end
