@@ -2,6 +2,8 @@
 `define	ISIZE	18
 `define	DSIZE	16
 `define	RSIZE	4
+`define	MEM_SPACE 4
+
 `define ADD 4'b0000
 `define SUB 4'b0001
 `define AND 4'b0010
@@ -22,7 +24,7 @@
 
 
 //for fileIO
-`timescale 10 ns/ 10 ns
+`timescale 1ns / 10ps
 `define EOF 32'hFFFF_FFFF
 `define NULL 0
 `define MAX_LINE_LENGTH 1000
